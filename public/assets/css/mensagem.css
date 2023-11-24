@@ -1,0 +1,39 @@
+:root {
+    --cor-deletar: #8B0000;
+    --cor-editar: #FFA500;
+    --cor-detalhes: #008B8B;
+    --cor-detalhes-hover: #006400;
+}
+
+.div-mensagem {
+    background: radial-gradient(rgb(69, 6, 128), #030303);
+    border-radius: 10px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin-left: 320px;
+    margin-top: 100px;
+    border: 3px solid var(--cor-detalhes-hover);
+    box-shadow: -0px 1px 30px 20px #FFF;
+    flex-wrap: wrap;
+}
+
+.div-mensagem h1{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-mensagem span{
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 20px;
+    color: #FFF;
+}
+
+.div-mensagem a{
+    color: #228B22;
+    
+}

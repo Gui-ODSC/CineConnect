@@ -1,0 +1,101 @@
+/* HEADER */
+
+/* BARRA DE NAVEGAÇÃO */
+.navbar {
+    min-height: 80px; /* Ajuste a altura conforme necessário */
+    font-size: large;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 10px 15px #FFF;
+}
+
+#letra_titulo {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Teko', sans-serif;
+}
+
+/* LOGO MARCA */
+.navbar-brand {
+    font-size: 40px;
+    background: linear-gradient(rgb(69, 6, 128), black);
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px;
+}
+
+/* CADA LINK DA HEADER */
+.nav-link {
+    color: white;
+}
+
+.nav-link active {
+    color: aliceblue;
+}
+
+
+/* ETILOS DE LINKS HEADER */
+
+/* Estilos para hover na barra de navegação */
+.navbar-nav .nav-item:hover {
+    background: linear-gradient(rgb(69, 6, 128), black);
+    border-radius: 10px;
+}
+
+/* Estilos para o texto do link quando o mouse passa sobre ele */
+.navbar-nav .nav-item:hover .nav-link {
+    color: #fff !important; /* Cor do texto branco */
+    border-radius: 10px;
+
+}
+
+/* Estilos para clicar na barra de navegação */
+.navbar-nav .nav-item:active {
+    background-color: #000; /* Vermelho */
+    border-radius: 10px;
+}
+
+/* Estilos para o texto do link quando clicado */
+.navbar-nav .nav-item:active .nav-link {
+    color: #fff !important; /* Cor do texto branco */
+}
+
+/* ICONE USER */
+.user-icon-header {
+    width: 45px;
+    padding-left: 5px;
+}
+
+/* PESQUISA E PERFIL */
+
+.form-control {
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 13px;
+}
+
+.form-control-button {
+    border: 1px solid #FFF;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 13px;
+}
+
+.form-control-button img{
+    width: 30px;
+    height: 30px;
+}
+
+.form-control-button:hover {
+    background: linear-gradient(rgb(69, 6, 128), black);
+    border: 1px solid #FFF;
+}
+
+
+
+.form-control-user {
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    color: #FFF;
+}

@@ -1,0 +1,29 @@
+.foot-container {
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.foot-main {
+    background: linear-gradient(90deg, rgba(173,6,73,1) 11%, rgba(133,43,119,1) 30%, rgba(134,42,117,1) 37%, rgba(116,59,138,0.9738095067128414) 49%, rgba(135,35,33,1) 72%, rgba(10,0,36,0.7665265935475752) 100%);
+    margin-top: 40px; 
+    box-shadow: 0px -10px 15px #FFF;
+}
+
+.footer-ul a:hover {
+    color: rgb(69, 6, 128);
+    background: radial-gradient(rgb(69, 6, 128), #030303);
+    /* background-color: rgb(69, 6, 128); */
+    border-radius: 10px;
+}
+
+.footer-ul a:active {
+    color: white;
+}
+
+.footer-ul a:visited {
+    color: white;
+}
+
+

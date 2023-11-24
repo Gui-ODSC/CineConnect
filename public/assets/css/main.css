@@ -1,0 +1,157 @@
+:root {
+    --cor-deletar: #8B0000;
+    --cor-editar: #FFA500;
+    --cor-detalhes: #008B8B;
+    --cor-detalhes-hover: #006400;
+}
+
+body {
+    background-image: linear-gradient(to left,#8B0000,#4B0082);
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    color: #000;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.main {
+    padding: 10px 10px 0px 10px;
+    display: flex;
+    max-width: 100%;
+    flex-wrap: wrap;
+}
+
+.container_filme {
+    display: flex;
+    margin-left: 20px;
+    padding: 0px;
+    max-width: 100vh;
+    width: 400px;
+}
+
+/* DIV GERAL */
+.table_container {
+    background: radial-gradient(rgb(69, 6, 128), #030303);
+    display: flex;
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 10px;
+} 
+
+/* DIV DOS ITENS DA TABELA IMG/DADOS */
+.table_itens {
+    padding: 15px;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+
+
+/* IMAGEM FILME */
+
+.imagem_filme {
+    align-items: center;
+    margin-bottom: 10px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.imagem_filme img{
+    width: 100px;
+    height: 300px;
+    object-fit: cover;
+}
+
+
+/* TABLE FILME */
+
+.table_filme {
+    text-align: center;
+    background-color: #FFF;
+    max-width: 100%;
+    width: 100%;
+    font-family: serif; 
+    min-width: 300px;
+    min-height: 300px;
+}
+
+.table_filme  td, th{
+    border: 2px solid #000;
+    background: linear-gradient(#8b000027, grey);
+    color: #000;
+}
+
+.botoes {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* BOTÕES DE AÇÕES */
+
+.button-editar {
+    background-color: var(--cor-editar);
+}
+
+.button-deletar {
+    background-color: var(--cor-deletar);
+}
+
+.button-detalhes {
+    background-color: var(--cor-detalhes);
+}
+
+.button-detalhes:hover {
+    background-color: var(--cor-detalhes-hover);
+}
+
+
+/* Estilo para a lista de paginação */
+.align-pagination {
+    justify-content: center;
+    max-width: 100%;
+    max-height: 50%;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.pagination {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    justify-content: center;
+}
+
+/* Estilo para os itens da lista de paginação */
+.pagination li {
+    margin-right: 10px;
+}
+
+/* Estilo para os links de paginação */
+.pagination li a {
+    text-decoration: none;
+    color: #FFF;
+    padding: 8px 12px;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+/* Estilo para o link ativo */
+.pagination li.active a {
+    background: radial-gradient(rgb(69, 6, 128), #030303);
+    color: #fff;
+}
+
+/* Estilo para o link de navegação "anterior" e "próximo" */
+.pagination li.prev a,
+.pagination li.next a {
+    background-color: #f8f9fa;
+    color: #007bff;
+    border-color: #dee2e6;
+}
